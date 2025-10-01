@@ -1,3 +1,6 @@
+
+##ejercicio 1
+
 from EJERCICIO_1.circulo import Circulo
 from EJERCICIO_1.cuadrado import Cuadrado
 from EJERCICIO_1.elipse import Elipse
@@ -11,3 +14,6 @@ if __name__ == "__main__":
     print(c2)
     print(c3)
     print(c4)
+
+##ejercicio 2
+
