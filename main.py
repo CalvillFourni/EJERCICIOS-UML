@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
 ##ejercicio 2
 
-from persona import kate, guillermo, diana, carlos
+from EJERCICIO_2.persona import kate, guillermo, diana, carlos
 
 def main():
     kate.mostrar_info()
