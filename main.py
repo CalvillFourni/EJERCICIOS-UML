@@ -17,3 +17,13 @@ if __name__ == "__main__":
 
 ##ejercicio 2
 
+from persona import kate, guillermo, diana, carlos
+
+def main():
+    kate.mostrar_info()
+    guillermo.mostrar_info()
+    diana.mostrar_info()
+    carlos.mostrar_info()
+
+if __name__ == "__main__":
+    main()
