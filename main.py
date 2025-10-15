@@ -66,3 +66,17 @@ if __name__ == "__main__":
     print(original)
     print()
     print(replica)
+
+##ejercicio 4
+from EJERCICIO_4.edificio import edificio
+from EJERCICIO_4.lugar import lugar
+
+if __name__ == "__main__":
+    lugar_catedral= lugar("La coruña","Galicia","España")
+
+    catedral= edificio("Catedral de santiago de compostela","religioso",1075,1122,1128,1168,"3 de abril de 1211",1896,"granito","romanico,gótico,barroco,plateresco y neoclasico")
+
+    ##relacionar edificio con lugar
+    catedral.se_encuentra_en(lugar_catedral)
+
+    print(catedral)
